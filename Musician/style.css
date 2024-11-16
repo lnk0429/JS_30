@@ -1,0 +1,52 @@
+html {
+  font-size: 10px;
+  background: url(./steve-busch-0vJeDG2lK0I-unsplash.jpg) center;
+  background-size: cover;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.key {
+  border: 0.6rem solid #beb2b29f;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 2.1rem;
+  transition: all 0.3s ease;
+  width: 10rem;
+  color: rgb(205, 225, 241);
+  background-color: rgb(22, 20, 19);
+  text-shadow: 0 0 0.5rem black;
+  text-align: center;
+}
+
+.playing {
+  transform: scale(1.5);
+  border-color: antiquewhite;
+  box-shadow: 0 0 1rem antiquewhite;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  color: rgb(233, 147, 35);
+  text-transform: uppercase;
+  font-size: 2rem;
+}
